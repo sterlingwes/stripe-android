@@ -296,7 +296,7 @@ class CardInputWidget @JvmOverloads constructor(
             postalCodeEditText.isEnabled = true
             postalCodeTextInputLayout.visibility = View.VISIBLE
 
-            cvcEditText.imeOptions = EditorInfo.IME_ACTION_NEXT
+            cvcEditText.imeOptions = EditorInfo.IME_ACTION_DONE
 
             // First remove if it's already added, to make sure it's not added multiple times.
             postalCodeEditText.removeTextChangedListener(cardValidTextWatcher)
