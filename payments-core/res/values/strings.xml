@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
+  <string name="stripe_local_payments_core_check">1</string>
   <!-- Label for card number entry text field -->
   <string name="stripe_acc_label_card_number">Card number</string>
   <string name="stripe_acc_label_card_number_node">%s, Card number</string>
